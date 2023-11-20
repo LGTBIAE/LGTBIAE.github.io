@@ -75,3 +75,9 @@ body{
         transform: translateX(0%);
     }
 }
+
+.descripcio{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
