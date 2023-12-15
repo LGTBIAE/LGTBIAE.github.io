@@ -7,6 +7,8 @@ header {
     left: 0;
     right: 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 
     
     
@@ -26,6 +28,8 @@ nav li {
     margin-right: 20px;
     
 }
+
+
 
 nav a {
     color: #fff;
@@ -51,7 +55,11 @@ body{
 .carrusel {
     display: flex;
     animation: desplazar 60s infinite; /* Duración de la animación y repetición infinita */
-    
+    max-width: 100vw; /* Establece el ancho máximo en el 100% del viewport width */
+    max-height: 100vh; /* Establece la altura máxima en el 100% del viewport height */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño máximo */
 }
 
 .imagen {
