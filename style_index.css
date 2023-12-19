@@ -9,24 +9,30 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     
     
 }
-
+/* estilo contenedor nav */
+nav {
+    width: 100%;
+}
 /* Estilo para los enlaces de navegación */
+
 nav ul {
     list-style-type: s;
     margin: 0;
     padding: 0;
     text-align: center;
+    align-items: center;
     
 }
 
 nav li {
     display: inline;
     margin-right: 20px;
-    
+    text-align: center;
 }
 
 
@@ -35,6 +41,8 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav a:hover {
