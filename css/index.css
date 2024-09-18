@@ -1,0 +1,15 @@
+.Barra_nav {
+    position: sticky;
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: space-between;
+}
+.logo {
+    max-width: 20%;
+    height: auto;
+}
+.botones {
+     margin-left: 20px; /* Espacio entre la imagen y el div */
+     top: 10%;
+     text-align: center;
+}
